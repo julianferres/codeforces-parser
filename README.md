@@ -57,19 +57,11 @@ cfparser contest 1 ./
 
 ```
 .1
-├── A
-│   └── tests
-│       ├── 1.in
-│       └── 1.out
-├── B
-│   └── tests
-│       ├── 1.in
-│       └── 1.out
-└── C
-    └── tests
-        ├── 1.in
-        └── 1.out
-
+├── A1.in
+├── A1.out
+|
+├── B1.in
+├── B1.out
 ```
 
 ### Example 2: Using templates
@@ -102,28 +94,18 @@ cfparser 1 contest ./ --template ./templates
 ##### Files created on drive
 
 ```
-1
-├── A
-│   ├── main.cpp
-│   ├── Makefile
-│   ├── tests
-│   │   ├── 1.in
-│   │   └── 1.out
-│   └── test.sh
-├── B
-│   ├── main.cpp
-│   ├── Makefile
-│   ├── tests
-│   │   ├── 1.in
-│   │   └── 1.out
-│   └── test.sh
-├── C
-│   ├── main.cpp
-│   ├── Makefile
-│   ├── tests
-│   │   ├── 1.in
-│   │   └── 1.out
-│   └── test.sh
-└── CMakeLists.txt
+.1
+├── A.cpp
+├── A1.in
+├── A1.out
+|
+├── B.cpp
+├── B1.in
+├── B1.out
+|
+├── Makefile
+├── dbg.cpp
+├── main.py 
+
 
 ```
